@@ -1,0 +1,10 @@
+interface:
+  display_name: "Photo to Relief Magnet"
+  short_description: "Turn photos into relief magnet concepts and prompts"
+  icon_small: "./assets/icon-400.png"
+  icon_large: "./assets/icon-1024.png"
+  brand_color: "#B55A3C"
+  default_prompt: "Use $photo-to-relief-magnet to turn my uploaded photo into a painted bas-relief fridge-magnet concept while preserving its key identity cues."
+
+policy:
+  allow_implicit_invocation: true
