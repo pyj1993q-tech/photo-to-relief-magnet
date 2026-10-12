@@ -6,6 +6,12 @@ An open Codex skill for turning reference photos into polished, generation-ready
 
 It helps an agent decide between die-cut and framed structures, preserve the right identity cues, simplify clutter, keep a product series consistent, write complete image-generation prompts, and verify whether a PNG contains real transparency.
 
+## Visual Example
+
+![Painted bas-relief fridge magnet example](assets/icon-1024.png)
+
+This original generated artwork demonstrates the intended framed-relief material and layering. It is a style example, not a manufactured sample or a claim of production readiness.
+
 ## What It Does
 
 - Handles pets, bouquets, flowers, landscapes, architecture, landmarks, and keepsake photos.
