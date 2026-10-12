@@ -6,11 +6,18 @@ An open Codex skill for turning reference photos into polished, generation-ready
 
 It helps an agent decide between die-cut and framed structures, preserve the right identity cues, simplify clutter, keep a product series consistent, write complete image-generation prompts, and verify whether a PNG contains real transparency.
 
-## Visual Example
+## Before and After Examples
 
-![Painted bas-relief fridge magnet example](assets/icon-1024.png)
+The source photos below are shown beside their generated painted bas-relief concepts. These are opaque presentation renders, not transparent assets, manufactured samples, or claims of production readiness.
 
-This original generated artwork demonstrates the intended framed-relief material and layering. It is a style example, not a manufactured sample or a claim of production readiness.
+| Source photo | Generated relief concept |
+| --- | --- |
+| ![Cat in a red outfit](examples/a-red-outfit-cat-source.jpg) | ![Relief concept of a cat in a red outfit](examples/a-red-outfit-cat-relief.png) |
+| ![Cat held in someone's arms](examples/b-held-cat-source.jpg) | ![Relief concept of a cat held in someone's arms](examples/b-held-cat-relief.png) |
+| ![Cat near cat furniture](examples/c-cat-furniture-source.jpg) | ![Relief concept of a cat near cat furniture](examples/c-cat-furniture-relief.png) |
+| ![Traditional building and white flowers](examples/d-building-flowers-source.jpg) | ![Relief concept of a traditional building and white flowers](examples/d-building-flowers-relief.png) |
+| ![Pink peony](examples/e-pink-peony-source.jpg) | ![Relief concept of a pink peony](examples/e-pink-peony-relief.png) |
+| ![Flower basket](examples/f-flower-basket-source.jpg) | ![Relief concept of a flower basket](examples/f-flower-basket-relief.png) |
 
 ## What It Does
 
@@ -77,6 +84,8 @@ photo-to-relief-magnet/
 |-- assets/
 |   |-- icon-400.png
 |   `-- icon-1024.png
+|-- examples/
+|   `-- six source-and-result pairs
 |-- references/
 |   |-- design-guide.md
 |   |-- prompt-blueprint.md
@@ -87,7 +96,7 @@ photo-to-relief-magnet/
 
 ## Privacy and Rights
 
-Only upload photos you are allowed to use. Review generated results before sharing them, especially when they contain people, private locations, brands, protected characters, or exact memorial text. This repository contains no private source photos or generated examples from the original project.
+Only upload photos you are allowed to use. Review generated results before sharing them, especially when they contain people, private locations, brands, protected characters, QR codes, or exact memorial text. The example photos in this repository are included with explicit permission from their owner.
 
 ## License
 

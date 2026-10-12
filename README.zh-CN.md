@@ -6,11 +6,18 @@
 
 它会帮助 Agent 判断异形切边还是框景结构更合适，保留照片中真正重要的识别点，清理无关杂物，统一系列风格，并检查 PNG 是否真的含有透明像素。
 
-## 视觉示例
+## 原图与浮雕效果示例
 
-![彩绘浮雕冰箱贴示例](assets/icon-1024.png)
+下列示例将用户提供的原图与生成的彩绘浮雕概念图并列展示。它们是带展示背景的全不透明概念效果图，不是透明底素材，也不代表已经完成实物打样或生产验证。
 
-这张原创生成图用于展示框景浮雕的材质和层次方向。它是风格示例，不代表已经完成实物打样或生产验证。
+| 原图 | 浮雕概念图 |
+| --- | --- |
+| ![穿红色衣服的猫](examples/a-red-outfit-cat-source.jpg) | ![穿红色衣服的猫浮雕概念图](examples/a-red-outfit-cat-relief.png) |
+| ![怀抱中的猫](examples/b-held-cat-source.jpg) | ![怀抱中的猫浮雕概念图](examples/b-held-cat-relief.png) |
+| ![猫爬架旁的猫](examples/c-cat-furniture-source.jpg) | ![猫爬架旁的猫浮雕概念图](examples/c-cat-furniture-relief.png) |
+| ![古建与白花墙](examples/d-building-flowers-source.jpg) | ![古建与白花墙浮雕概念图](examples/d-building-flowers-relief.png) |
+| ![粉色牡丹](examples/e-pink-peony-source.jpg) | ![粉色牡丹浮雕概念图](examples/e-pink-peony-relief.png) |
+| ![花篮](examples/f-flower-basket-source.jpg) | ![花篮浮雕概念图](examples/f-flower-basket-relief.png) |
 
 ## 主要能力
 
@@ -69,7 +76,7 @@ python scripts/check_png_alpha --json output-a.png output-b.png
 
 ## 隐私与权利
 
-只上传你有权使用的照片。对人物、私人地点、品牌、受保护角色和纪念文字，发布前应人工复核。本仓库不包含原项目中的私人照片或生成样例。
+只上传你有权使用的照片。对人物、私人地点、品牌、二维码、受保护角色和纪念文字，发布前应人工复核。本仓库中的示例照片已获得照片权利方的明确公开授权。
 
 ## 许可证
 
